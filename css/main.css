@@ -24,17 +24,17 @@ body{
 }
 #body_header{
 	width:100%;
-	height:76px;
+	height:80px;
 }
 	#obj_logo{
-		width:370px;
-		height:76px;
+		width:365px;
+		height:80px;
 		float:left;
-		background:url(../imgs/logo.png);
+		background:url(../imgs/logo-crystal.png);
 	}
 	#obj_user_login{
 		width:350px;
-		height:76px;
+		height:80px;
 		float:right;
 		background-color:#333;
 	}
