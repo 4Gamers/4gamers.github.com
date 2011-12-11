@@ -49,11 +49,16 @@ body{
 		background-color:#333;
 	}
 		#obj_user_login form{
-		
+			margin:10px;
 		}
-			#obj_user_login form input{
-			
-			}
+		#obj_user_login input[type="text"], #obj_user_login input[type="password"]{
+			width:200px;
+			margin:5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			border:none;
+		}
 #body_navbar{
 	width:100%;
 	height:70px;
