@@ -29,9 +29,25 @@
                     <div id="obj_logo"></div>
                     <div id="obj_user_login">
                         <form method="post" action="include/login/">
-                            משתמש:<input type="text" name="user_username" /><br />
-                            סיסמא:<input type="password" name="user_password" />
-                            <input type="submit" name="user_submit" value="התחבר" />
+                            <table>
+                                <tr>
+                                    <td width="70%">
+                                        <table cellspacing="5">
+                                            <tr>
+                                                <td>משתמש:</td><td>
+                                                <input type="text" name="user_username" /></td>
+                                            </tr>
+                                            <tr>
+                                                <td>סיסמא:</td>
+                                                <td><input type="password" name="user_password" /></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="30%" align="center">
+                                        <input type="submit" name="user_submit" value="התחבר" />
+                                    </td>
+                                </tr>
+                            </table>
                         </form>
                     </div>
                 </div>
