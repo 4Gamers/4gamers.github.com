@@ -1,0 +1,42 @@
+#slider_main{
+	height:250px;
+	width:600px;
+	border:1px solid #000;
+	overflow:hidden;
+	background: rgb(201,201,201); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(127,127,127,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,201,201,1)), color-stop(100%,rgba(127,127,127,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#7f7f7f',GradientType=0 ); /* IE6-9 */
+}
+#slider_main ul{
+	width:600px;
+	position:relative;
+	top:0;
+}
+#slider_main ul li{
+	display:block;
+	height:250px;
+	width:600px;
+}
+#slider_main ul li span{
+	display:block;
+	position:absolute;
+	right:0;
+}
+#slider_main ul li span h3{
+	margin:5px;
+}
+#slider_main ul li span p{
+	margin:5px;
+}
+#slider_main ul li img{
+	margin:0 auto;
+	display:block;
+	height:250px;
+	min-width:400px;
+	max-width:600px;
+}
