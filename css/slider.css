@@ -1,6 +1,6 @@
 #slider_main{
-	height:250px;
-	width:600px;
+	height:350px;
+	width:100%;
 	border:1px solid #000;
 	overflow:hidden;
 	background: rgb(201,201,201); /* Old browsers */
@@ -13,17 +13,18 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#7f7f7f',GradientType=0 ); /* IE6-9 */
 }
 #slider_main ul{
-	width:600px;
+	width:100%;
 	position:relative;
 	top:0;
 }
 #slider_main ul li{
 	display:block;
-	height:250px;
-	width:600px;
+	height:100%;
+	width:100%;
 }
 #slider_main ul li span{
 	display:block;
+	width:100%;
 	position:absolute;
 	right:0;
 }
@@ -36,7 +37,7 @@
 #slider_main ul li img{
 	margin:0 auto;
 	display:block;
-	height:250px;
-	min-width:400px;
-	max-width:600px;
+	height:100%;
+	min-width:85%;
+	max-width:100%;
 }

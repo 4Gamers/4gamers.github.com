@@ -117,7 +117,7 @@ input.input_submit_medium{padding:15px;}
 input.input_submit_large{padding:22px;}
 .main_wrapper{}
 .main_container{width:900px;margin:20px auto;}
-.block_raw{width:890px;margin:5px;}
+.block_raw{width:100%;}
 .block_column_50{display:inline-block;width:49%;vertical-align:top;}
 .block_column_30{display:inline-block;width:29%;vertical-align:top;}
 .block_column_70{display:inline-block;width:69%;vertical-align:top;}
