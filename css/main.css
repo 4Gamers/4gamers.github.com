@@ -198,14 +198,15 @@ input.input_submit_large{padding:22px;}
 			color:#FFF;
 		}
 		#obj_menu li a:hover{
-			background: rgb(201,201,201); /* Old browsers */
-			background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(127,127,127,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,201,201,1)), color-stop(100%,rgba(127,127,127,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* IE10+ */
-			background: linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(127,127,127,1) 100%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#7f7f7f',GradientType=0 ); /* IE6-9 */
+			background: rgb(91,152,198); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(91,152,198,1) 0%, rgba(38,113,193,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(91,152,198,1)), color-stop(100%,rgba(38,113,193,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(91,152,198,1) 0%,rgba(38,113,193,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(91,152,198,1) 0%,rgba(38,113,193,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(91,152,198,1) 0%,rgba(38,113,193,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(91,152,198,1) 0%,rgba(38,113,193,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b98c6', endColorstr='#2671c1',GradientType=0 ); /* IE6-9 */
+
 		}
 		#obj_menu li a.active{
 			
@@ -221,7 +222,6 @@ input.input_submit_large{padding:22px;}
 		}
 #body_content{
 	width:100%;
-	background:#333;
 	margin-top:10px;
 	padding:5px 0px 25px 0px;
 	-webkit-border-radius: 5px;
@@ -283,7 +283,10 @@ input.input_submit_large{padding:22px;}
 		#obj_gamelist li img{
 			display:inline-block;
 			vertical-align:top;
-			height:100px;
-			width:75px;
+			height:70px;
+			width:55px;
 			background-color:#333;
+		}
+		#obj_gamelist li span{
+			
 		}
