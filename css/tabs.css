@@ -1,5 +1,5 @@
 .tabs, .pills {
-  margin: 0 0 18px;
+  margin: 0 0 0px;
   padding: 0;
   list-style: none;
   zoom: 1;
@@ -22,19 +22,16 @@
   display: block;
 }
 .tabs {
-  border-color: #ddd;
-  border-style: solid;
-  border-width: 0 0 1px;
 }
 .tabs > li {
   position: relative;
-  margin-bottom: -1px;
+  margin-bottom: -6px;
 }
 .tabs > li > a {
   padding: 0 15px;
   margin-right: 2px;
   line-height: 34px;
-  border: 1px solid #FAFAFA;
+  border: 1px solid #000;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
@@ -42,12 +39,11 @@
 .tabs > li > a:hover {
   text-decoration: none;
   background-color: #eee;
-  border-color: #eee #eee #ddd;
-  color: blue;
+  color: rgba(36,129,201,1);
 }
 .tabs .activeTab > a, .tabs .activeTab > a:hover {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
+  background-color: #d3d3d3;
+  border: 1px solid #000;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -79,13 +75,13 @@
   border-radius: 15px;
 }
 .pills a:hover {
-  color: #ffffff;
+  color: rgba(36,129,201,1);
   text-decoration: none;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 1px #000;
   background-color: #00438a;
 }
 .pills .activeTab a {
-  color: #ffffff;
+  color: rgba(36,129,201,1);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   background-color: #0069d6;
 }
