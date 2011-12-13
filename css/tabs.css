@@ -29,7 +29,7 @@
 }
 .tabs > li > a {
   padding: 0 15px;
-  margin-right: 2px;
+  margin-right: 3px;
   line-height: 34px;
   border: 1px solid #000;
   -webkit-border-radius: 4px 4px 0 0;
@@ -39,7 +39,7 @@
 .tabs > li > a:hover {
   text-decoration: none;
   background-color: #eee;
-  color: rgba(36,129,201,1);
+  color: #2481C9;
 }
 .tabs .activeTab > a, .tabs .activeTab > a:hover {
   background-color: #d3d3d3;
