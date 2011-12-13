@@ -212,7 +212,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b98c6', end
 			
 		}
 		#obj_menu li a.first{
-			padding-right:30px;
+			padding-right:25px;
 			-webkit-border-top-right-radius: 5px;
 			-webkit-border-bottom-right-radius: 5px;
 			-moz-border-radius-topright: 5px;
