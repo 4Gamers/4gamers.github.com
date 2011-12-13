@@ -15,14 +15,17 @@
         <link href="css/normalize.css" rel="permalink" type="text/css">
         <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href="css/slider.css" rel="stylesheet" type="text/css">
+        <link href="css/tabs.css" rel="stylesheet" type="text/css">
             
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script src="js/slider.js" type="text/javascript"></script>
+        <script src="js/tabs.js" type="text/javascript"></script>
             
         <script>
             $(document).ready(display_site);
             function display_site(){
 				$('.slideshow').slideshow({ timeout: 3500, speed: "slow" });
+                $('.tabs').tabs();
             }
         </script>
     </head>
@@ -165,50 +168,63 @@
 						</div>
 					<div class="block_raw">
 						<span class="padding_5 color_steel display_block border_bottom border_top">
-							<h5 class="margin_5"><a href="#" class="link_active">כתבות אחרונות</a> | <a href="#">סיקורים אחרונים</a> | <a href="#">משחקים אחרונים</a></h5>
+							<h5 class="margin_5">
+                                <ul class="tabs">
+                                    <li class="activeTab"><a href="#last_articles">כתבות אחרונות</a></li>
+                                    <li><a href="#blabla">סיקורים אחרונים</a></li>
+                                    <li><a href="#">משחקים אחרונים</a>
+                                </ul>
+                            </h5>
 						</span>
-						<ul id="obj_iconlist">
-							<li>
-								<img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
-								<span>
-									<h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
-									<p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
-									<h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
-								</span>
-							</li>
-							<li>
-								<img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
-								<span>
-									<h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
-									<p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
-									<h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
-								</span>
-							</li>
-							<li>
-								<img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
-								<span>
-									<h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
-									<p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
-									<h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
-								</span>
-							</li>
-							<li>
-								<img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
-								<span>
-									<h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
-									<p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
-									<h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
-								</span>
-							</li>
-							<li>
-								<img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
-								<span>
-									<h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
-									<p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
-									<h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
-								</span>
-							</li>
-						</ul>
+                        <div class="pill-content">
+                            <div id="blabla">
+                                123
+                            </div>
+                            <div id="last_articles" class="activeTab">
+                                <ul id="obj_iconlist">
+                                    <li>
+                                        <img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
+                                        <span>
+                                            <h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
+                                            <p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
+                                            <h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
+                                        <span>
+                                            <h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
+                                            <p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
+                                            <h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
+                                        <span>
+                                            <h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
+                                            <p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
+                                            <h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
+                                        <span>
+                                            <h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
+                                            <p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
+                                            <h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <img src="http://media.giantbomb.com/uploads/0/6393/314500-block_large.gif" class="display_block padding_5 margin_5" />
+                                        <span>
+                                            <h4 class="text_underline padding_5 margin_5">כותרת של כתבה או משהו אחר</h4>
+                                            <p class="display_block padding_5 margin_5">פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.פירוט על הכורתרת הראשונה, פירוט קצר של התוכן הפנימי של הכתבה. עוד דברים קטנים ולא חשובים ונגמר.</p>
+                                            <h5 class="display_block float_left">תגים: משחקים מגניבים אברם עם דגש</h5>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 					</div>
                 </div>
             </div>
