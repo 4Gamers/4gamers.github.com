@@ -113,6 +113,19 @@ input[type="submit"]:hover{
 	background: linear-gradient(top,  rgba(135,135,135,1) 0%,rgba(96,96,96,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#606060',GradientType=0 ); /* IE6-9 */
 }
+.color_blue{
+	background: rgb(90,114,221); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(90,114,221,1) 0%, rgba(30,87,153,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(90,114,221,1)), color-stop(100%,rgba(30,87,153,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(90,114,221,1) 0%,rgba(30,87,153,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(90,114,221,1) 0%,rgba(30,87,153,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(90,114,221,1) 0%,rgba(30,87,153,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(90,114,221,1) 0%,rgba(30,87,153,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a72dd', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+
+
+}
 input.input_text_small{width: 75px;}
 input.input_text_medium{width: 150px;}
 input.input_text_large{width: 250px;}
