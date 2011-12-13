@@ -290,3 +290,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b98c6', end
 		#obj_gamelist li span{
 			
 		}
+
+.navbar {
+    margin: 2px 8px 5px;
+}
