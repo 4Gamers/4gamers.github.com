@@ -243,6 +243,10 @@ input.input_submit_large{padding:22px;}
 	background: linear-gradient(top, #e8e8e8 0%,#b7b7b7 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#b7b7b7',GradientType=0 ); /* IE6-9 */
 }
+    #navigation {
+        margin: 2px 8px 5px;
+    }
+    
 #body_footer{
 	width:100%;
 	padding:10px;
