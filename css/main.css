@@ -182,12 +182,10 @@ input.input_submit_large{padding:22px;}
 		height:80px;
 		float:left;
 		background:url(../imgs/logo-crystal.png);
-        background-position:0px -6px;
 	}
 	#obj_user_login{
 		width:350px;
 		height:80px;
-		float:right;
         color:#FAFAFA;
 	}
 #body_navbar{
