@@ -172,15 +172,11 @@ input.input_submit_large{padding:22px;}
 
 
 .main_wrapper{}
-.main_container{width:900px;margin:20px auto;}
+.main_container{width:900px;margin:25px auto;}
 .block_raw{width:100%;}
 .block_column_50{display:inline-block;width:49%;vertical-align:top;}
 .block_column_30{display:inline-block;width:29%;vertical-align:top;}
 .block_column_70{display:inline-block;width:69%;vertical-align:top;}
-
-.title_block{display:block;color:#FFF;background-color:#000;}
-.title_block a{color:#FFF;}
-.title_block p{color:#999;}
 
 .text_red{color:red;}
 .text_blue{color:#2481C9;}
@@ -193,7 +189,7 @@ input.input_submit_large{padding:22px;}
 		width:365px;
 		height:80px;
 		float:left;
-		background:url(../imgs/logo-redcrystal.png);
+		background:url(../imgs/logo-crystal2.png);
 	}
 	#obj_logo_bg{
 	}
@@ -211,7 +207,6 @@ input.input_submit_large{padding:22px;}
 	-moz-border-radius-topright: 5px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	box-shadow:0px 2px 5px #000;
 }
 	#obj_menu{
 		list-style:none;
@@ -258,12 +253,11 @@ input.input_submit_large{padding:22px;}
 	width:100%;
 	padding:0px 0px 25px 0px;
 	-webkit-border-bottom-right-radius: 5px;
--webkit-border-bottom-left-radius: 5px;
--moz-border-radius-bottomright: 5px;
--moz-border-radius-bottomleft: 5px;
-border-bottom-right-radius: 5px;
-border-bottom-left-radius: 5px;
-	box-shadow:0px 2px 5px #000;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 	background: #e8e8e8; /* Old browsers */
 	background: -moz-linear-gradient(top, #e8e8e8 0%, #b7b7b7 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#b7b7b7)); /* Chrome,Safari4+ */
@@ -285,25 +279,26 @@ border-bottom-left-radius: 5px;
 #obj_iconlist{
 	width:100%;
 	list-style:none;
+	padding:10px 0px 10px 0px;
 }
 	#obj_iconlist li{
 		display:block;
-		padding:5px 10px 5px 5px;
-		margin:0px 5px 0px 0px;
 		width:97%;
 		border-bottom:1px dashed #000;
+		padding:2px 0px 2px 0px;
 	}
 		#obj_iconlist li span{
 			display:inline-block;
-			width:80%;
+			width:88%;
 			min-height:100px;
 			vertical-align:top;
+			padding:7px 0px 2px 0px;
 		}
 		#obj_iconlist li img{
 			display:inline-block;
 			vertical-align:center;
-			height:100px;
-			width:100px;
+			height:80px;
+			width:80px;
 			background-color:#000;
 		}
 		#obj_iconlist li img:hover{
